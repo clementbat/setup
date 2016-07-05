@@ -5,6 +5,11 @@ sudo apt-get update
 sudo apt-get install -y git
 sudo apt-get install -y curl
 
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+npm install express
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | sh
 
 nvm install 5.0
