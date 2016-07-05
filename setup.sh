@@ -1,8 +1,6 @@
 #!/bin/bash
-#setup.sh for Ubuntu EC2 instance
+#setup.sh for Ubuntu 14.04 EC2 instance
 
-sudo apt-get update
-sudo apt-get install -y git
 sudo apt-get install -y curl
 
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
